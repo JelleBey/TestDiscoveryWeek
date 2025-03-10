@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+                    <!-- grote Circle -->
+                    <circle cx="100" cy="100" r="70" fill="none" stroke="#8a7d63" stroke-width="3"/>
+
+                    <!-- kleine circle -->
+                    <circle cx="100" cy="100" r="50" fill="none" stroke="#d4c8a1" stroke-width="2"/>
+
+                    <!-- Ellipse -->
+                    <ellipse cx="100" cy="100" rx="60" ry="20" fill="none" stroke="#8a7d63" stroke-width="1"/>
+
+                    <!--J-->
+
+                    <rect x="87" y="72.5" width="25" height="4" fill="#d4c8a1"/>
+                    <rect x="97" y="72.5" width="5" height="55" fill="#d4c8a1"/>
+                    <rect x="82" y="123.9" width="19.8" height="4" fill="#d4c8a1"/>
+                </svg>

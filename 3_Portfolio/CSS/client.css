@@ -1,0 +1,159 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1,
+h2 {
+    font-family: "Georgia", serif;
+    padding: 15px;
+    font-size: 2rem;
+}
+p,
+ul {
+    font-size: 1.2rem;
+    padding: 15px;
+}
+header {
+    height: 400px;
+    background-image: url("../images/velvet-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header h1 {
+    color: #f8f8ff;
+}
+header p {
+    color: #f8f8ff;
+}
+
+nav a {
+    flex: 1 1 auto;
+    text-decoration: none;
+    background-color: #260101;
+    color: white;
+    padding: 30px;
+}
+
+nav p {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+nav a:hover,
+a:focus,
+a:active {
+    background-color: #591202;
+}
+img {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.container img {
+    padding: 10px;
+    width: 100%;
+}
+article {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 30%;
+}
+
+article h3 {
+    font-size: 1.5rem;
+    padding: 8px;
+}
+
+article p {
+    font-size: 1.5rem;
+}
+.drinks div {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+}
+.drinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 20px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.drinks h3 {
+    margin: 15px 0 10px;
+    font-size: 1.5rem;
+}
+
+.contact {
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.contact h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #260101;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover,
+a:active,
+a:focus {
+    color: antiquewhite;
+}
+.contact:nth-child(1) {
+    margin: 10px;
+}
+@media screen and (max-width: 800px) {
+    article {
+        width: 100%;
+    }
+}

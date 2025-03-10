@@ -1,0 +1,45 @@
+body {
+    background-color: grey;
+}
+
+svg:hover {
+    transform: rotate(360deg);
+    transition: transform 0.5s;
+}
+
+::selection {
+    background-color: #a3aba8;
+}
+
+body {
+    text-align: center;
+}
+
+div {
+    transition: transform 0.5s;
+    padding: 15px;
+}
+
+div:hover {
+    transform: rotate(-45deg);
+}
+
+a {
+    border: 2px solid #000065;
+    padding: 14px 28px;
+    border-radius: 10px;
+    background-color: navy;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+
+    transition: transform 0.5s;
+}
+
+a:hover {
+    transform: scale(1.1);
+    background-color: #000065;
+    border-color: navy;
+    color: white;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
